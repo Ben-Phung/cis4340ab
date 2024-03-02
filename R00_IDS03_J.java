@@ -1,6 +1,5 @@
-public void deleteFile(){
-
-  File someFile = new File("someFileName.txt");
-  // Do something with someFile
-  someFile.delete();
+if (loginSuccessful){
+  logger.severe("User login succeeded for: " + username);
+} else {
+  logger.severe("User login failed for: " + username);
 }
